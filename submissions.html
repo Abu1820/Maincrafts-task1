@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted Messages | MainCrafts</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">MainCrafts</div>
+
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+            <li><a href="submissions.html" class="active">Submissions</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Submissions Section -->
+
+    <section class="about-page">
+
+        <div class="about-container">
+
+            <h1>Submitted Messages</h1>
+
+            <p>All contact form submissions are displayed below.</p>
+
+            <br>
+
+            <button class="clear-btn" onclick="clearSubmissions()">
+                <i class="fas fa-trash"></i> Clear All Submissions
+            </button>
+
+            <div class="about-cards" id="submissionList">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -21,6 +21,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="submissions.html">Submissions</a></li>
         </ul>
     </nav>
 
@@ -30,13 +31,13 @@
 
             <h1>Contact Us</h1>
 
-            <form name="contactForm" onsubmit="return validateForm()">
+            <form id="contactForm" onsubmit="return validateForm()">
 
-                <input type="text" name="name" placeholder="Enter Your Name">
+                <input type="text" id="name" name="name" placeholder="Enter Your Name">
 
-                <input type="email" name="email" placeholder="Enter Your Email">
+                <input type="email" id="email" name="email" placeholder="Enter Your Email">
 
-                <textarea name="message" rows="6" placeholder="Enter Your Message"></textarea>
+                <textarea id="message" name="message" rows="6" placeholder="Enter Your Message"></textarea>
 
                 <button type="submit">
                     Send Message
